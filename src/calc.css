@@ -1,0 +1,54 @@
+.container {
+    width: 400px;
+
+}
+
+.screan {
+    background-color: #262834;
+    height: 100px;
+    line-height: 100px;
+    text-align: right;
+    color: white;
+    padding: 0 20px;
+    font-size: 30px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 100px;
+    height: 80px;
+    border: none;
+    outline: 0;
+    color: white;
+    background: #262834;
+    cursor: pointer;
+    font-size: 25px;
+    border: 1px solid rgb(92, 92, 92);
+    transition: all 0.3s ease;
+}
+
+button:active {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.width {
+    width: 200px;
+}
+
+.btn-color {
+    background-color: rgb(101, 214, 214);
+    color: #262834;
+    font-weight: 600;
+}
+
+
+div:empty:before {
+    content: attr(data-placeholder);
+    color: gray
+}
